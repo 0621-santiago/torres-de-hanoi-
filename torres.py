@@ -21,6 +21,9 @@ while True:
         print("ingrese un numero, no una letra, gracias")
     else:
         break
+#bucle que le da al usuario que la concdicion de que solo permite numero
+#y que si ingresa una letra le imprime un mensaje de que ingrese un numero y no una letra 
+#y al ingresear una letra vuelve a iniciar el programa hasta que ingrese un numero valido  
 
 pasos = 1
 hanoi(num, 'A','C','B')
