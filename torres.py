@@ -14,4 +14,4 @@ def hanoi(n, origen, destino, auxiliar):
 pasos = 1
 num = int(input("ingrese el numero de discos: "))
 hanoi(num, 'A','C','B')
-print(f"el numero de pasos: {pasos - 1}" )
+print(f"el numero de pasos es: {pasos - 1}" )
