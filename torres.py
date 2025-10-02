@@ -17,6 +17,15 @@ def hanoi(n, origen, destino, auxiliar):
 while True:
     try:
         num = int(input("ingrese el numero de discos:" ))
+
+        if num <= 0:
+            print("ingrese un numero mayor a 0 ")
+            continue    
+
+        if num > 20:
+            print("ingrese un numero entre 1 y 20 ")
+            continue
+        
     except ValueError:
         print("ingrese un numero, no una letra, gracias")
     else:
